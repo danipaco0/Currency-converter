@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Currency converter</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.plot.ly/plotly-latest.min.css">
+    <style>
+      body {background-color: #88BDBC;
+            font-family: Arial, sans-serif;}
+      h1   {color: #254E58;}
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align:center">Conversion result : {{conversion}}</h1>
+    <div id="plot">
+        {{ plot_div|safe }}
+    </div>
+  </body>
+</html>
